@@ -51,3 +51,10 @@ function startQuiz(){
     nextButton.innerHTML = "Next";
     showQuestion();
 }
+
+function showQuestion(){
+    let currentQuestion = questions[currentQuestionIndex];
+    let questionNo = currentQuestionIndex + 1;
+    questionElement.innerHTML = questionNo + ". " + currentQuestion
+    question;
+}
